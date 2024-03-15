@@ -41,7 +41,7 @@ function displayTodosFromLocalStorage() {
     todo.innerHTML += `
       <div class="card conatiner" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">Title: ${title}</h5>
+          <h5 class="card-title">Title: ${title} (${fullDate})</h5>
           <p>${desc}</p>
           <a class="delete-todo btn btn-primary" data-key="${key}">Delete</a>
         </div>
